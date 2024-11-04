@@ -10,7 +10,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/feli"
-        android:backgroundTint="@color/rojo_oscuro"/>
+        />
 
     <TextView
         android:id="@+id/text_view"
@@ -22,5 +22,6 @@
         android:id="@+id/button_to_fragment_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Boton de maldad" />
+        android:text="Boton de maldad"
+        android:backgroundTint="@color/rojo_oscuro"/>
 </LinearLayout>
